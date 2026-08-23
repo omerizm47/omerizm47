@@ -22,6 +22,14 @@ I work on the unglamorous half of AI systems: proving they still behave after th
 | **[Fêrbûn](https://github.com/omerizm47/ferbun)**<br><sub>`Expo` `React Native` `TypeScript`</sub> | Free Kurdish learning app for iOS and Android. 292 Kurmancî words across 17 themes, 40 lessons, 14 interactive stories with word-level glosses, spaced repetition, streaks and badges. No account, no backend, works with the plane on. A Sorani track is being authored beside it, where every taught entry cites a reference grammar and the build rejects a citation that does not resolve. [Get the app](https://omerizm47.github.io/ferbun/get.html) |
 | **[Nisibis](https://github.com/omerizm47/nisibis)**<br><sub>`Expo` `React Native` `TypeScript`</sub> | Gamified city guide to Mardin and Nusaybin. Quest-driven map with live location, curated routes, per-city tour progress, and every string in Turkish, English, and Arabic. Also offline, also no backend. [Site](https://omerizm47.github.io/nisibis/) |
 
+## Two kinds of languages
+
+| I write in | My software speaks |
+|---|---|
+| Python, TypeScript, Kotlin, PowerShell | Kurmancî, Sorani, Turkish, English, Arabic |
+
+The column on the right is the one that took longer.
+
 ## Toolbox
 
 **Microsoft data stack**
@@ -46,3 +54,20 @@ I work on the unglamorous half of AI systems: proving they still behave after th
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+
+<details>
+<summary><b>Field notes</b></summary>
+
+<br>
+
+**Kızıltepe Ulu Camii spent a while sitting 451 metres from itself.** The coordinate came from Turkish Wikipedia, and Wikipedia was wrong. The real one came off an OpenStreetMap way tagged `start_date 1205`. The old point sat between numbered streets in Yeni Mahalle with no building within 120 metres of it. Blast radius after the fix: 15 of 15 nearby-place lists unchanged, one route centre moved 77 metres on a 50 km route.
+
+**Two places were apologising for accuracy they already had.** Mardin Kalesi and the Sakıp Sabancı museum were flagged unverified, so the app kept showing a "location approximate" badge. Their approximate values turned out to be 0 and 10 metres off OpenStreetMap.
+
+**The abbaras are still marked approximate, deliberately.** They are not a building. They are vaulted passages threaded through the old city, and no single point is honest about that.
+
+**Fêrbûn's citation checker tells you what it cannot do.** It proves a page reference points somewhere the book actually goes. It will not pretend to know whether the sentence on that page is correct. That still needs a speaker.
+
+**The unfinished half of Fêrbûn is unfinished on purpose.** Sorani lessons nobody has written yet register as real empty lessons instead of crashing, which seemed like the more polite way for a language to be under construction.
+
+</details>
