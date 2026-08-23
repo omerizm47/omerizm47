@@ -22,14 +22,6 @@ I work on the unglamorous half of AI systems: proving they still behave after th
 | **[Fêrbûn](https://github.com/omerizm47/ferbun)**<br><sub>`Expo` `React Native` `TypeScript`</sub> | Free Kurdish learning app for iOS and Android. 292 Kurmancî words across 17 themes, 40 lessons, 14 interactive stories with word-level glosses, spaced repetition, streaks and badges. No account, no backend, works with the plane on. A Sorani track is being authored beside it, where every taught entry cites a reference grammar and the build rejects a citation that does not resolve. [Get the app](https://omerizm47.github.io/ferbun/get.html) |
 | **[Nisibis](https://github.com/omerizm47/nisibis)**<br><sub>`Expo` `React Native` `TypeScript`</sub> | Gamified city guide to Mardin and Nusaybin. Quest-driven map with live location, curated routes, per-city tour progress, and every string in Turkish, English, and Arabic. Also offline, also no backend. [Site](https://omerizm47.github.io/nisibis/) |
 
-## Two kinds of languages
-
-| I write in | My software speaks |
-|---|---|
-| Python, TypeScript, Kotlin, PowerShell | Kurmancî, Sorani, Turkish, English, Arabic |
-
-The column on the right is the one that took longer.
-
 ## Toolbox
 
 **Microsoft data stack**
