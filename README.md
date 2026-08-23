@@ -5,6 +5,7 @@
 Microsoft Fabric accelerators, evaluation harnesses for data agents, and offline-first mobile apps.
 
 <a href="https://www.linkedin.com/in/omerguzzel/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-omerguzzel-0A66C2?style=for-the-badge"></a>
+<a href="https://www.youtube.com/@PrometheusUnchainedAndFree"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 <a href="mailto:omer.guzzel@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-omer.guzzel%40outlook.com-0078D4?style=for-the-badge"></a>
 <a href="https://www.fabricdemogallery.com"><img alt="Fabric Demo Gallery" src="https://img.shields.io/badge/Fabric_Demo_Gallery-117865?style=for-the-badge"></a>
 
