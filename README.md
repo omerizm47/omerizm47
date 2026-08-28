@@ -11,7 +11,7 @@ Microsoft Fabric accelerators, evaluation harnesses for data agents, and offline
 
 </div>
 
-I work on the unglamorous half of AI systems: proving they still behave after the demo is over. Most of what I ship is either a one-command accelerator that deletes a day of portal clicking, or a harness that catches a regression before a user does. The rest is mobile software for languages and places that nobody writes software for.
+Most of what I ship is either a one-command accelerator that deletes a day of portal clicking, or a harness that catches a regression before a user does. The rest is mobile software for languages and places that nobody writes software for.
 
 ## Selected work
 
