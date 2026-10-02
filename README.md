@@ -1,12 +1,10 @@
-# Deploy. Test. Learn. Explore.
+# Selected work
 
 [Fabric Demo Gallery](#fabric-demo-gallery) | [Data Agent Quality Lab](#data-agent-quality-lab) | [Fêrbûn](#fêrbûn) | [Nisibis](#nisibis)
 
 ## Fabric Demo Gallery
 
-**For when "a quick demo" has other plans.**
-
-Pick an industry and deploy a Microsoft Fabric environment into your own tenant. Deployment orchestration, Entra sign-in, live progress and Azure AI integrations bring the setup together.
+An open-source platform for deploying Microsoft Fabric and Azure demo environments into a user's own tenant. It combines deployment orchestration, Microsoft Entra authentication, live progress reporting, AI-agent provisioning and Azure AI Search integration.
 
 [![Fabric Demo Gallery homepage with industry-based Microsoft Fabric demos](https://raw.githubusercontent.com/Fabric-Demo-Gallery/fabric-demo-gallery/main/docs/media/home.png)](https://www.fabricdemogallery.com/)
 
@@ -16,9 +14,7 @@ Pick an industry and deploy a Microsoft Fabric environment into your own tenant.
 
 ## Data Agent Quality Lab
 
-**Confident answers still need a test set.**
-
-Regression testing for Microsoft Fabric data agents. Ground-truth questions, scheduled evaluations and a Power BI scorecard track accuracy, latency and failures, so changes have something firmer than a good feeling behind them.
+Evaluation and regression testing for Microsoft Fabric data agents. Ground-truth question banks, scheduled checks and a Power BI scorecard help teams investigate accuracy changes, latency and failures.
 
 *Python, Microsoft Fabric, Power BI*
 
@@ -28,9 +24,7 @@ Regression testing for Microsoft Fabric data agents. Ground-truth questions, sch
 
 <img align="right" width="48" height="48" src="https://omerizm47.github.io/ferbun/icon.png" alt="Fêrbûn app icon">
 
-**A little Kurmancî. Even in airplane mode.**
-
-Kurdish lessons, flashcards, stories and spaced repetition for iOS and Android. Free, offline and without an account or backend.
+A published Kurdish learning app for iOS and Android. Lessons, flashcards, stories and spaced repetition work offline, without an account or a backend.
 
 *React Native, Expo, TypeScript*
 
@@ -40,22 +34,20 @@ Kurdish lessons, flashcards, stories and spaced repetition for iOS and Android. 
 
 <img align="right" width="48" height="48" src="https://omerizm47.github.io/nisibis/img/icon.png" alt="Nisibis app icon">
 
-**For the "what's down that street?" detour.**
-
-An offline-first guide to Mardin and Nusaybin, with mapped places, curated routes and discovery missions. Each city keeps its own progress. Available in Turkish, English and Arabic.
+An offline-first guide to Mardin and Nusaybin with map-based exploration, curated routes and local progress. Content is available in Turkish, English and Arabic.
 
 *React Native, Expo, TypeScript*
 
 [Explore the cities](https://omerizm47.github.io/nisibis/) | [Source](https://github.com/omerizm47/nisibis)
 
 <details>
-<summary>A couple of details that matter</summary>
+<summary>Engineering notes</summary>
 
-- **Nisibis:** Some places deserve a precise map pin. Mardin's vaulted passages are spread through the old city, so their locations stay labelled approximate. False precision is not much of a guide.
-- **Fêrbûn:** The citation checker verifies that a reference resolves. Whether the language itself is right still needs a speaker's review. Different checks, different jobs.
+- **Nisibis:** Map coordinates are cross-checked. Locations that cannot be represented by a single precise point, such as Mardin's vaulted passages, remain labelled approximate.
+- **Fêrbûn:** Citation checks validate that a reference resolves. Linguistic accuracy still needs a speaker's review.
 
 </details>
 
 ---
 
-Questions, ideas or a useful bug report? [LinkedIn](https://www.linkedin.com/in/omerguzzel/) | [YouTube](https://www.youtube.com/@PrometheusUnchainedAndFree)
+[LinkedIn](https://www.linkedin.com/in/omerguzzel/) | [YouTube](https://www.youtube.com/@PrometheusUnchainedAndFree)
