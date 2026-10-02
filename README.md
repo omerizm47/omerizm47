@@ -1,58 +1,61 @@
-# Ömer Güzel
+# Deploy. Test. Learn. Explore.
 
-**AI agents, evaluation tooling and cloud automation.**
+[Fabric Demo Gallery](#fabric-demo-gallery) | [Data Agent Quality Lab](#data-agent-quality-lab) | [Fêrbûn](#fêrbûn) | [Nisibis](#nisibis)
 
-I build AI and data tools, cloud deployment platforms and offline-first mobile apps.
+## Fabric Demo Gallery
 
-My work includes retrieval-augmented generation (RAG), agent evaluation, authentication and deployment orchestration. The projects below link to working demos, published apps and source code.
+**For when "a quick demo" has other plans.**
 
-[LinkedIn](https://www.linkedin.com/in/omerguzzel/) | [Fabric Demo Gallery](https://www.fabricdemogallery.com/) | [YouTube](https://www.youtube.com/@PrometheusUnchainedAndFree)
-
-## Selected work
-
-### Fabric Demo Gallery
-
-An open-source platform for deploying Microsoft Fabric and Azure demo environments into a user's own tenant. My contributions include deployment orchestration, Microsoft Entra authentication, live progress reporting, AI-agent provisioning and Azure AI Search integration.
-
-**Built with:** Python, FastAPI, TypeScript, Next.js, Azure and Microsoft Fabric.
-
-[Try the gallery](https://www.fabricdemogallery.com/) | [Explore the code](https://github.com/Fabric-Demo-Gallery/fabric-demo-gallery)
+Pick an industry and deploy a Microsoft Fabric environment into your own tenant. Deployment orchestration, Entra sign-in, live progress and Azure AI integrations bring the setup together.
 
 [![Fabric Demo Gallery homepage with industry-based Microsoft Fabric demos](https://raw.githubusercontent.com/Fabric-Demo-Gallery/fabric-demo-gallery/main/docs/media/home.png)](https://www.fabricdemogallery.com/)
 
-### Data Agent Quality Lab
+*Python, FastAPI, TypeScript, Next.js, Azure, Microsoft Fabric*
 
-Evaluation and regression testing for Microsoft Fabric data agents. Ground-truth question banks, scheduled checks and a Power BI scorecard help teams investigate accuracy changes, latency and failures.
+[Try the gallery](https://www.fabricdemogallery.com/) | [Source](https://github.com/Fabric-Demo-Gallery/fabric-demo-gallery)
 
-**Built with:** Python, Microsoft Fabric and Power BI.
+## Data Agent Quality Lab
 
-[Explore the code](https://github.com/omerizm47/data-agent-quality-lab)
+**Confident answers still need a test set.**
 
-### Fêrbûn
+Regression testing for Microsoft Fabric data agents. Ground-truth questions, scheduled evaluations and a Power BI scorecard track accuracy, latency and failures, so changes have something firmer than a good feeling behind them.
 
-A published Kurdish learning app for iOS and Android. Lessons, flashcards, stories and spaced repetition work offline, without an account or a backend.
+*Python, Microsoft Fabric, Power BI*
 
-**Built with:** React Native, Expo and TypeScript.
+[Explore the lab](https://github.com/omerizm47/data-agent-quality-lab)
 
-[Get the app](https://omerizm47.github.io/ferbun/get.html) | [Explore the code](https://github.com/omerizm47/ferbun)
+## Fêrbûn
 
-### Nisibis
+<img align="right" width="48" height="48" src="https://omerizm47.github.io/ferbun/icon.png" alt="Fêrbûn app icon">
 
-An offline-first guide to Mardin and Nusaybin with map-based exploration, curated routes and local progress. Content is available in Turkish, English and Arabic.
+**A little Kurmancî. Even in airplane mode.**
 
-**Built with:** React Native, Expo and TypeScript.
+Kurdish lessons, flashcards, stories and spaced repetition for iOS and Android. Free, offline and without an account or backend.
 
-[Visit the site](https://omerizm47.github.io/nisibis/) | [Explore the code](https://github.com/omerizm47/nisibis)
+*React Native, Expo, TypeScript*
 
-## What I work with
+[Get the app](https://omerizm47.github.io/ferbun/get.html) | [Source](https://github.com/omerizm47/ferbun)
 
-- **AI and data:** Azure, Microsoft Fabric, Azure AI Search, RAG, agent evaluation and Power BI.
-- **Application development:** Python, TypeScript, SQL, FastAPI, Next.js, React Native and Expo.
+## Nisibis
+
+<img align="right" width="48" height="48" src="https://omerizm47.github.io/nisibis/img/icon.png" alt="Nisibis app icon">
+
+**For the "what's down that street?" detour.**
+
+An offline-first guide to Mardin and Nusaybin, with mapped places, curated routes and discovery missions. Each city keeps its own progress. Available in Turkish, English and Arabic.
+
+*React Native, Expo, TypeScript*
+
+[Explore the cities](https://omerizm47.github.io/nisibis/) | [Source](https://github.com/omerizm47/nisibis)
 
 <details>
-<summary>Engineering notes from my projects</summary>
+<summary>A couple of details that matter</summary>
 
-- **Nisibis:** Cross-checking map coordinates matters. Some places can be located precisely; others, such as the vaulted passages through Mardin's old city, should remain labelled approximate rather than imply false precision.
-- **Fêrbûn:** A citation checker can establish that a reference resolves. It cannot establish that the linguistic content is correct. That still needs a speaker's review.
+- **Nisibis:** Some places deserve a precise map pin. Mardin's vaulted passages are spread through the old city, so their locations stay labelled approximate. False precision is not much of a guide.
+- **Fêrbûn:** The citation checker verifies that a reference resolves. Whether the language itself is right still needs a speaker's review. Different checks, different jobs.
 
 </details>
+
+---
+
+Questions, ideas or a useful bug report? [LinkedIn](https://www.linkedin.com/in/omerguzzel/) | [YouTube](https://www.youtube.com/@PrometheusUnchainedAndFree)
