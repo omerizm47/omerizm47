@@ -1,65 +1,58 @@
-<div align="center">
+# Ömer Güzel
 
-# omerizm47
+**AI agents, evaluation tooling and cloud automation.**
 
-Microsoft Fabric accelerators, evaluation harnesses for data agents, and offline-first mobile apps.
+I build AI and data tools, cloud deployment platforms and offline-first mobile apps.
 
-<a href="https://www.linkedin.com/in/omerguzzel/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-omerguzzel-0A66C2?style=for-the-badge"></a>
-<a href="https://www.youtube.com/@PrometheusUnchainedAndFree"><img alt="YouTube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
-<a href="mailto:omer.guzzel@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-omer.guzzel%40outlook.com-0078D4?style=for-the-badge"></a>
-<a href="https://www.fabricdemogallery.com"><img alt="Fabric Demo Gallery" src="https://img.shields.io/badge/Fabric_Demo_Gallery-117865?style=for-the-badge"></a>
+My work includes retrieval-augmented generation (RAG), agent evaluation, authentication and deployment orchestration. The projects below link to working demos, published apps and source code.
 
-</div>
-
-Most of what I ship is either a one-command accelerator that deletes a day of portal clicking, or a harness that catches a regression before a user does. The rest is mobile software for languages and places that nobody writes software for.
+[LinkedIn](https://www.linkedin.com/in/omerguzzel/) | [Fabric Demo Gallery](https://www.fabricdemogallery.com/) | [YouTube](https://www.youtube.com/@PrometheusUnchainedAndFree)
 
 ## Selected work
 
-| Project | What it does |
-|---|---|
-| **[Data&nbsp;Agent&nbsp;Quality&nbsp;Lab](https://github.com/omerizm47/data-agent-quality-lab)**<br><sub>`Microsoft Fabric` `Python` `Jupyter` `Power BI`</sub> | Scheduled regression testing for Fabric data agents. Ground-truth question banks run on a timer, accuracy is trended per agent, and the pipeline **fails the run** when a score drops past its threshold. A Power BI scorecard then names the cause of each wrong answer: wrong query, summarization mismatch, no data returned, agent error. |
-| **[Fabric&nbsp;Demo&nbsp;Gallery](https://github.com/Fabric-Demo-Gallery/fabric-demo-gallery)**<br><sub>`Microsoft Fabric` `Python` `Power BI` `Azure`</sub> | Pick an industry, sign in with Entra, click Deploy, and a full Fabric environment lands in your own tenant: workspace, lakehouse, notebooks, semantic models, Power BI reports. Twelve industries and six custom scenarios, including Real-Time Intelligence, zero-ETL mirroring from Azure SQL, and a Fabric IQ ontology behind a data agent. Progress streams live, and a failed deploy tears itself back down. [fabricdemogallery.com](https://www.fabricdemogallery.com) |
-| **[Fêrbûn](https://github.com/omerizm47/ferbun)**<br><sub>`Expo` `React Native` `TypeScript`</sub> | Free Kurdish learning app for iOS and Android. 292 Kurmancî words across 17 themes, 40 lessons, 14 interactive stories with word-level glosses, spaced repetition, streaks and badges. No account, no backend, works with the plane on. A Sorani track is being authored beside it, where every taught entry cites a reference grammar and the build rejects a citation that does not resolve. [Get the app](https://omerizm47.github.io/ferbun/get.html) |
-| **[Nisibis](https://github.com/omerizm47/nisibis)**<br><sub>`Expo` `React Native` `TypeScript`</sub> | Gamified city guide to Mardin and Nusaybin. Quest-driven map with live location, curated routes, per-city tour progress, and every string in Turkish, English, and Arabic. Also offline, also no backend. [Site](https://omerizm47.github.io/nisibis/) |
+### Fabric Demo Gallery
 
-## Toolbox
+An open-source platform for deploying Microsoft Fabric and Azure demo environments into a user's own tenant. My contributions include deployment orchestration, Microsoft Entra authentication, live progress reporting, AI-agent provisioning and Azure AI Search integration.
 
-**Microsoft data stack**
+**Built with:** Python, FastAPI, TypeScript, Next.js, Azure and Microsoft Fabric.
 
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft_Fabric-117865?style=flat-square)
-![Fabric Data Agents](https://img.shields.io/badge/Fabric_Data_Agents-117865?style=flat-square)
-![Power BI](https://img.shields.io/badge/Power_BI-E8B300?style=flat-square)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square)
-![PowerShell](https://img.shields.io/badge/PowerShell-2C5697?style=flat-square)
+[Try the gallery](https://www.fabricdemogallery.com/) | [Explore the code](https://github.com/Fabric-Demo-Gallery/fabric-demo-gallery)
 
-**Languages**
+[![Fabric Demo Gallery homepage with industry-based Microsoft Fabric demos](https://raw.githubusercontent.com/Fabric-Demo-Gallery/fabric-demo-gallery/main/docs/media/home.png)](https://www.fabricdemogallery.com/)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+### Data Agent Quality Lab
 
-**Product and delivery**
+Evaluation and regression testing for Microsoft Fabric data agents. Ground-truth question banks, scheduled checks and a Power BI scorecard help teams investigate accuracy changes, latency and failures.
 
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+**Built with:** Python, Microsoft Fabric and Power BI.
+
+[Explore the code](https://github.com/omerizm47/data-agent-quality-lab)
+
+### Fêrbûn
+
+A published Kurdish learning app for iOS and Android. Lessons, flashcards, stories and spaced repetition work offline, without an account or a backend.
+
+**Built with:** React Native, Expo and TypeScript.
+
+[Get the app](https://omerizm47.github.io/ferbun/get.html) | [Explore the code](https://github.com/omerizm47/ferbun)
+
+### Nisibis
+
+An offline-first guide to Mardin and Nusaybin with map-based exploration, curated routes and local progress. Content is available in Turkish, English and Arabic.
+
+**Built with:** React Native, Expo and TypeScript.
+
+[Visit the site](https://omerizm47.github.io/nisibis/) | [Explore the code](https://github.com/omerizm47/nisibis)
+
+## What I work with
+
+- **AI and data:** Azure, Microsoft Fabric, Azure AI Search, RAG, agent evaluation and Power BI.
+- **Application development:** Python, TypeScript, SQL, FastAPI, Next.js, React Native and Expo.
 
 <details>
-<summary><b>Field notes</b></summary>
+<summary>Engineering notes from my projects</summary>
 
-<br>
-
-**Kızıltepe Ulu Camii spent a while sitting 451 metres from itself.** The coordinate came from Turkish Wikipedia, and Wikipedia was wrong. The real one came off an OpenStreetMap way tagged `start_date 1205`. The old point sat between numbered streets in Yeni Mahalle with no building within 120 metres of it. Blast radius after the fix: 15 of 15 nearby-place lists unchanged, one route centre moved 77 metres on a 50 km route.
-
-**Two places were apologising for accuracy they already had.** Mardin Kalesi and the Sakıp Sabancı museum were flagged unverified, so the app kept showing a "location approximate" badge. Their approximate values turned out to be 0 and 10 metres off OpenStreetMap.
-
-**The abbaras are still marked approximate, deliberately.** They are not a building. They are vaulted passages threaded through the old city, and no single point is honest about that.
-
-**Fêrbûn's citation checker tells you what it cannot do.** It proves a page reference points somewhere the book actually goes. It will not pretend to know whether the sentence on that page is correct. That still needs a speaker.
-
-**The unfinished half of Fêrbûn is unfinished on purpose.** Sorani lessons nobody has written yet register as real empty lessons instead of crashing, which seemed like the more polite way for a language to be under construction.
+- **Nisibis:** Cross-checking map coordinates matters. Some places can be located precisely; others, such as the vaulted passages through Mardin's old city, should remain labelled approximate rather than imply false precision.
+- **Fêrbûn:** A citation checker can establish that a reference resolves. It cannot establish that the linguistic content is correct. That still needs a speaker's review.
 
 </details>
